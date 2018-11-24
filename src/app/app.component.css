@@ -1,0 +1,11 @@
+#carouselExampleControls img{
+    width: auto;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+link-right {
+    float: right!important;
+}
