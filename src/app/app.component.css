@@ -1,4 +1,12 @@
-#carouselExampleControls img{
+#carouselControlsHeader img{
+    width: auto;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#carouselControls img{
     width: auto;
     height: 400px;
     display: block;
@@ -6,6 +14,64 @@
     margin-right: auto; 
 }
 
-link-right {
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.link-right {
     float: right!important;
+}
+
+.row_header{
+    display: flex;
+}
+
+.sub_sup{
+    font-size: 35px;
+    font-weight:normal;
+}
+
+#header_text{
+    padding-left: 5rem;
+}
+
+.jumbotron{
+    background-color:transparent !important;
+}
+
+.navbar{
+    background-image: url("/assets/flute_new.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: 95% 105%;
+   
+}
+
+.btn-circle-home {
+    width: 35px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-circle {
+    width: 65px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.centered {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
